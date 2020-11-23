@@ -3,7 +3,7 @@ package com.example.aac_dagger.ui.main
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.aac_dagger.data.di.SampleRepository
+import com.example.aac_dagger.data.SampleRepository
 import javax.inject.Inject
 
 @Suppress("CanBeParameter")

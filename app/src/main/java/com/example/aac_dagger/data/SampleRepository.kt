@@ -1,4 +1,4 @@
-package com.example.aac_dagger.data.di
+package com.example.aac_dagger.data
 
 import com.example.aac_dagger.data.remote.SampleDataSource
 import javax.inject.Inject
