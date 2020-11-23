@@ -4,11 +4,12 @@ import com.example.aac_dagger.data.SampleRepository
 import com.example.aac_dagger.data.SampleRepositoryImpl
 import com.example.aac_dagger.data.remote.SampleDataSource
 import com.example.aac_dagger.data.remote.SampleDataSourceImpl
+import com.example.aac_dagger.di.viewmodel.ViewModelModule
 import dagger.Binds
 import dagger.Module
 import javax.inject.Singleton
 
-@Module
+@Module(includes = [ViewModelModule::class])
 abstract class AppModule {
     @Singleton
     @Binds
