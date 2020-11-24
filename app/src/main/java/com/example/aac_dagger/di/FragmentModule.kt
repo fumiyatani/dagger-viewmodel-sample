@@ -1,4 +1,4 @@
-package com.example.aac_dagger.di.viewmodel
+package com.example.aac_dagger.di
 
 import com.example.aac_dagger.ui.main.MainFragment
 import dagger.Module

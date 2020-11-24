@@ -2,8 +2,6 @@ package com.example.aac_dagger.di
 
 import android.content.Context
 import com.example.aac_dagger.MyApplication
-import com.example.aac_dagger.di.viewmodel.ActivityModule
-import com.example.aac_dagger.di.viewmodel.FragmentModule
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjectionModule
